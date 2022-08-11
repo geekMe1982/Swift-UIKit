@@ -54,14 +54,46 @@
 		5BAA8B8028A549CF00367548 /* Bull'sEye game */ = {
 			isa = PBXGroup;
 			children = (
+				5BAA8B9C28A55D6900367548 /* Data */,
+				5BAA8B9B28A55D5F00367548 /* View */,
+				5BAA8B9D28A55D7200367548 /* Controller */,
+				5BAA8B9E28A55D9000367548 /* Supporting Files */,
+				5BAA8B8A28A549D400367548 /* Assets.xcassets */,
+			);
+			path = "Bull'sEye game";
+			sourceTree = "<group>";
+		};
+		5BAA8B9B28A55D5F00367548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BAA8B8C28A549D400367548 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BAA8B9C28A55D6900367548 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5BAA8B9D28A55D7200367548 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				5BAA8B8128A549CF00367548 /* AppDelegate.swift */,
 				5BAA8B8328A549CF00367548 /* SceneDelegate.swift */,
 				5BAA8B8528A549CF00367548 /* ViewController.swift */,
-				5BAA8B8A28A549D400367548 /* Assets.xcassets */,
-				5BAA8B8C28A549D400367548 /* LaunchScreen.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5BAA8B9E28A55D9000367548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				5BAA8B8F28A549D400367548 /* Info.plist */,
 			);
-			path = "Bull'sEye game";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
